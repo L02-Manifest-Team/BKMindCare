@@ -17,6 +17,7 @@ const OnboardingScreen = () => {
       title: 'Welcome to BKMindCare',
       description: 'Stress is part of the Bach Khoa University\'s health journey — but you don\'t have to face it alone. Our mental health experts are ready to help you find your balance.',
       illustration: '🧘',
+      
     },
     {
       title: 'Features & How it Works',
@@ -325,6 +326,7 @@ const styles = StyleSheet.create({
   },
   skipButton: {
     flex: 0.45,
+
   },
   nextButton: {
     flex: 0.45,
