@@ -11,7 +11,7 @@ const LoginScreen = () => {
   const handleHCMUTLogin = () => {
     // TODO: Implement HCMUT authentication
     // For now, navigate to user dashboard
-    navigation.navigate('UserDashboard' as never);
+    navigation.navigate('MoodCheckIn' as never);
   };
 
   const handleAdminLogin = () => {
@@ -22,8 +22,8 @@ const LoginScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Image 
-          source={require('../../assets/logo.png')} 
+        <Image
+          source={require('../../assets/logo.png')}
           style={styles.logo}
           resizeMode="contain"
         />
@@ -40,8 +40,8 @@ const LoginScreen = () => {
         >
           <View style={styles.accountButtonContent}>
             <View style={styles.accountIcon}>
-              <Image 
-                source={require('../../assets/bk.png')} 
+              <Image
+                source={require('../../assets/bk.png')}
                 style={styles.bkIcon}
                 resizeMode="contain"
               />

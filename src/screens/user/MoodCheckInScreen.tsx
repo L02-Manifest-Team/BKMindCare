@@ -56,17 +56,17 @@ const MoodCheckInScreen = () => {
 
   return (
     <LinearGradient
-  colors={[
-    '#A8E6FF',
-    '#C8F0E8',
-    '#E8F8F0',
-    '#FFE8F5',
-    '#FFD4F0'
-  ]}
-  start={{ x: 0, y: 0 }}
-  end={{ x: 1, y: 1 }}
-  style={styles.container}
->
+      colors={[
+        '#A8E6FF',
+        '#C8F0E8',
+        '#E8F8F0',
+        '#FFE8F5',
+        '#FFD4F0'
+      ]}
+      start={{ x: 0, y: 0 }}
+      end={{ x: 1, y: 1 }}
+      style={styles.container}
+    >
 
       {/* Header */}
       <View style={styles.header}>
@@ -77,7 +77,7 @@ const MoodCheckInScreen = () => {
         <View style={{ width: 24 }} />
       </View>
 
-      <ScrollView 
+      <ScrollView
         style={styles.scrollView}
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
@@ -110,8 +110,8 @@ const MoodCheckInScreen = () => {
               onPress={() => setSelectedMood(mood.type)}
               activeOpacity={0.7}
             >
-              <Image 
-                source={mood.image} 
+              <Image
+                source={mood.image}
                 style={styles.moodImage}
                 resizeMode="contain"
               />
